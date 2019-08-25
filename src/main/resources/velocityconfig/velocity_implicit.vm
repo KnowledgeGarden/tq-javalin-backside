@@ -1,0 +1,11 @@
+#* @implicitly included *#
+#* @vtlvariable name="WebPath" type="org.topicquests.ks.backside.javalin.util.Path.Web" *#
+#* @vtlvariable name="msg" type="org.topicquests.ks.backside.javalin.util.MessageBundle" *#
+#* @vtlvariable name="books" type="java.lang.Iterable<org.topicquests.ks.backside.javalin.book.Book>" *#
+#* @vtlvariable name="book" type="org.topicquests.ks.backside.javalin.book.Book" *#
+#* @vtlvariable name="users" type="java.lang.Iterable<org.topicquests.ks.backside.javalin.user.User>" *#
+#* @vtlvariable name="currentUser" type="java.lang.String" *#
+#* @vtlvariable name="loggedOut" type="java.lang.String" *#
+#* @vtlvariable name="authenticationFailed" type="java.lang.String" *#
+#* @vtlvariable name="authenticationSucceeded" type="java.lang.String" *#
+#* @vtlvariable name="loginRedirect" type="java.lang.String" *#

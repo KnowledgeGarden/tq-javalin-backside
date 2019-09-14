@@ -40,6 +40,7 @@ public class Main {
        	hypController = environment.getHypothesisController();
        	
         Javalin app = Javalin.create(config -> {
+        	config.enableCorsForAllOrigins();
             config.addStaticFiles("/public");
             config.registerPlugin(new RouteOverviewPlugin("/routes"));
         }).start(7070);
